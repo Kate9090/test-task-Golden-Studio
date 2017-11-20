@@ -1,0 +1,93 @@
+.footer {
+  background-color: @grey;
+
+  &__wrapper {
+    .container();
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 14px;
+    line-height: 20px;
+
+    & h3 {
+      color: @orange;
+      font-size: 17px;
+      margin-top: 28px;
+      margin-bottom: 18px;
+    }
+  }
+
+  &__colored {
+    color: @orange;
+    text-decoration: underline;
+  //  border-bottom: 1px solid darkgrey;
+  }
+
+  &__inner-list {
+    margin-left: 10px;
+  }
+
+  &__catalog {
+    margin-right: 135px;
+
+    & li {
+      text-decoration: underline;
+    }
+  }
+
+  &__services {
+    margin-right: 25px;
+
+    & li {
+      text-decoration: underline;
+    }
+  }
+
+    &__about {
+      margin-right: 85px;
+
+      & li {
+        text-decoration: underline;
+      }
+    }
+
+    &__logo {
+      margin-left: 105px;
+
+      & img {
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-bottom: -14px;
+      }
+
+      & p {
+        font-size: 12px;
+        margin-left: 50px;
+      }
+    }
+
+
+  &__buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    & a {
+      background-color: darkgrey;
+      padding: 6px 25px;
+      color: #ffffff;
+      display: block;
+      margin-right: 16px;
+    }
+  }
+
+  &__copyright {
+    text-align: center;
+    font-size: 11px;
+    padding: 3px 0 10px;
+  }
+}

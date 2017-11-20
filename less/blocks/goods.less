@@ -1,0 +1,80 @@
+.goods {
+  margin: 0 auto;
+  width: 1440px;
+  margin-top: 30px;
+  border-top: 1px solid @grey;
+  margin-bottom: 50px;
+
+    &__title {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px auto 25px;
+  }
+
+  &__container {
+    background-color: #ebebeb;
+    padding: 15px 125px 35px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  &__img {
+    width: 180px;
+    height: 160px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+
+    &--one {
+    background-image: url("../img/chear1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--two {
+  background-image: url("../img/chear2.jpg");
+  background-repeat: no-repeat;
+  background-position: center -60px;
+
+}
+
+&--three {
+background-image: url("../img/chear3.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+&--four {
+background-image: url("../img/chear4.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+&--five {
+background-image: url("../img/chear5.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+&--six {
+background-image: url("../img/chear6.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+}
+
+  &__item h3 {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+  }
+
+  &__item a{
+    font-size: 14px;
+    color:@orange;
+    text-decoration: underline;
+  }
+}

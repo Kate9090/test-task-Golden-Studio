@@ -1,0 +1,64 @@
+.top-menu {
+  .container();
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+
+  &__logo {
+    margin: 10px 20px 0 0;
+
+    & p {
+      margin-top: 2px;
+    }
+  }
+
+  &__trade-department {
+    padding: 0 34px 0 45px;
+
+    & h3 {
+      font-size: 17px;
+      margin-top: 7px;
+    }
+
+    & p {
+      margin-top: -20px;
+    }
+  }
+
+  &__delivery {
+    & h3 {
+      font-size: 17px;
+      margin-top: 7px;
+    }
+
+    & p {
+      margin-top: -20px;
+    }
+  }
+
+  &__call-back {
+    cursor: pointer;
+    margin:  0  70px 0 43px;
+    padding:  4px 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid @orange;
+    border-radius: 15px;
+
+    & img {
+      width: 18px;
+      height: 18px;
+      margin-right: 3px;
+    }
+
+    & h2 {
+      margin: 3px;
+      margin-top: 1px;
+      font-size: 15px;
+      line-height: 16px;
+
+    }
+  }
+}

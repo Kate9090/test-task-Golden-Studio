@@ -1,0 +1,49 @@
+.bottom-menu {
+  .container();
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid @grey;
+  margin-top: -5px;
+
+  &__catalog {
+    margin-top: -5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    & img {
+      margin-right: 8px;
+    }
+  }
+
+  &__gmail {
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 40px;
+
+    & h2 {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+}
+
+  &__adress {
+  margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    & h2 {
+    font-size: 13px;
+    padding-left: 5px;
+  }
+  }
+}
