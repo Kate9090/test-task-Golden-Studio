@@ -480,29 +480,31 @@ iframe {
   margin: 10px 20px 0 0;
 }
 .top-menu__logo p {
-  margin-top: 2px;
+  margin-top: 4px;
 }
 .top-menu__trade-department {
-  padding: 0 34px 0 45px;
+  padding: 0 37px 0 40px;
 }
 .top-menu__trade-department h3 {
-  font-size: 17px;
-  margin-top: 7px;
+  font-size: 15px;
+  margin-top: 8px;
+  margin-bottom: 1px;
 }
 .top-menu__trade-department p {
-  margin-top: -20px;
+  margin-top: 1px;
 }
 .top-menu__delivery h3 {
-  font-size: 17px;
-  margin-top: 7px;
+  font-size: 15px;
+  margin-top: 8px;
+  margin-bottom: 1px;
 }
 .top-menu__delivery p {
-  margin-top: -20px;
+  margin-top: 1px;
 }
 .top-menu__call-back {
   cursor: pointer;
-  margin: 0  70px 0 43px;
-  padding: 4px 10px;
+  margin: 0  80px 0 60px;
+  padding: 4px 2px 4px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -542,7 +544,7 @@ iframe {
   margin-top: 10px;
 }
 .menu__item {
-  margin-right: 18px;
+  margin-right: 13px;
 }
 .menu__item a {
   color: #000000;
@@ -573,7 +575,7 @@ iframe {
       -ms-flex-align: center;
           align-items: center;
   border-top: 1px solid #ebebeb;
-  margin-top: -5px;
+  margin-top: -2px;
 }
 .bottom-menu__catalog {
   margin-top: -5px;
@@ -655,7 +657,7 @@ iframe {
   font-size: 35px;
   line-height: 42px;
   width: 700px;
-  padding-top: 110px;
+  padding-top: 80px;
   padding-left: 150px;
   margin-bottom: 34px;
 }
@@ -690,6 +692,7 @@ iframe {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: -5px;
 }
 .ban-menu__item {
   display: -webkit-box;
@@ -810,7 +813,7 @@ iframe {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 50px;
-  margin-top: 55px;
+  margin-top: 42px;
   border-top: 1px solid #ebebeb;
 }
 .promo__egsample-item {
@@ -997,28 +1000,33 @@ iframe {
   text-decoration: underline;
 }
 .footer__inner-list {
-  margin-left: 10px;
+  margin-left: 8px;
 }
 .footer__catalog {
-  margin-right: 135px;
+  margin-right: 130px;
 }
 .footer__catalog li {
   text-decoration: underline;
 }
 .footer__services {
-  margin-right: 25px;
+  margin-right: 10px;
 }
 .footer__services li {
   text-decoration: underline;
+  width: 180px;
 }
 .footer__about {
-  margin-right: 85px;
+  margin-right: 55px;
 }
 .footer__about li {
   text-decoration: underline;
+  width: 140px;
+}
+.footer__contacts li {
+  width: 240px;
 }
 .footer__logo {
-  margin-left: 105px;
+  margin-left: 80px;
 }
 .footer__logo img {
   margin-top: 30px;
@@ -1044,10 +1052,10 @@ iframe {
 }
 .footer__buttons a {
   background-color: darkgrey;
-  padding: 6px 25px;
+  padding: 6px 21px;
   color: #ffffff;
   display: block;
-  margin-right: 16px;
+  margin-right: 20px;
 }
 .footer__copyright {
   text-align: center;
